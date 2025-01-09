@@ -1,6 +1,10 @@
 # Drone Database
 
-In this project, I made a drone database where drone images can be stored. The database also has user and drone information. I designed the database first with an ER model (picture 1). After this, I created a server using Docker. I then created  SQL scripts for adding the database to the server and some example data I created. With these scripts imported to the server, I could make different SQL queries to the data.
+In this project, I made a drone database where drone images can be stored. The database also has user and drone information. I designed the database first with an ER model. After this, I created a server using Docker. I then created  SQL scripts for adding the database to the server and some example data I created. With these scripts imported to the server, I could make different SQL queries to the data.
+
+### ER model
+
+![Image 9 1 2025 at 14 14](https://github.com/user-attachments/assets/1251e91e-1c57-4464-9de9-3f5a471459af)
 
 ## Test the database
 
@@ -29,4 +33,5 @@ JOIN flight f
 WHERE f.user_id = u.id AND i.flight_id = f.id;
 
 Result: 
+
 ![Screenshot 2025-01-09 at 14 11 42](https://github.com/user-attachments/assets/fe7c4187-629c-4308-ab4f-0ee5412738b8)
