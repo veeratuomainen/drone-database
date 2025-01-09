@@ -1,5 +1,7 @@
 # Drone Database
 
+This project was done October 2023
+
 In this project, I made a drone database where drone images can be stored. The database also has user and drone information. I designed the database first with an ER model. After this, I created a server using Docker. I then created  SQL scripts for adding the database to the server and some example data I created. With these scripts imported to the server, I could make different SQL queries to the data.
 
 ### ER model
@@ -22,6 +24,8 @@ To easily test the database for yourself, make sure you have Docker installed an
    1. drone_script.sql
    2. data.sql
 6. In the 'SQL command' section you can now test the database with different SQL queries.
+7. Stop the docker containers when done:
+  docker-compose down
 
 ## Example SQL query
 
